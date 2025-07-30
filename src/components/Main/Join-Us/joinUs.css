@@ -1,0 +1,93 @@
+#join-us{
+background-color: var(--dark-blue);
+text-align: center;
+
+}
+.join-us-header{
+    text-align: center;
+    padding: 5rem 0;
+    color: #fff;
+
+}
+
+#join-us .join-us-contens span{
+    color: var(--sky-blue);
+    font-weight: 600;
+
+}
+#join-us .join-us-contens h2{
+    font-size: 40px;
+    font-weight: 600;
+    margin: 20px 0;
+    color: #fff;
+}
+#join-us .join-us-contens p{
+    margin-bottom: 30px;
+    color:#fff;
+    line-height: 1.6;
+    text-align: center;
+}
+.emil{
+margin-top: 4rem;
+position: relative;
+}
+.emil input{
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 0;
+      font-size: 12px;
+}
+.emil button{
+    position: absolute;
+    right: -25px;
+    top: 0;
+    padding: 12px;
+    background-color: var(--sky-blue);
+    color: #fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 0;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .join-us-header {
+    padding: 2rem 1rem;
+  }
+
+  #join-us .join-us-contens h2 {
+    font-size: 28px;
+  }
+
+  #join-us .join-us-contens p {
+    font-size: 14px;
+  }
+
+  .emil {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    position: static;
+  }
+
+  .emil input {
+    width: 95%;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .emil button {
+    position: static;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,36 @@
+@import url(
+  'https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+  
+  *{
+    margin: 0;
+    padding: 0;
+    outline:1px solid #E74040;
+  }
+  
+  body{
+      font-family: "IBM Plex Sans Arabic", sans-serif;
+      font-size: 16px;
+      text-align: center;
+  }
+
+  :root{
+    --dark-blue:#252B42;
+    --sky-blue:#23A6F0;
+    --Light-sky-blue:#b2e3ff;
+    --Light-orange:#E77C40;
+    --red:#E74040;
+    --Light-pink:#FFDCD1;
+    --Light-gray:#737373;
+    --yellow:#F3CD03;
+    --green:#2DC071;
+    --Light-green:#B9EAA8;
+  }
+  ul{
+    list-style: none;
+  }
+  a{
+    text-decoration: none;
+  }
+  p{
+    line-height: 1.4;
+  }

@@ -1,0 +1,21 @@
+project structure
+App
+ - Header //done
+ - Main //done
+   - Home
+     - Card
+     - Card
+     - Card
+   - Courses //done
+     - Section Header
+     - Course
+     - Course
+     - Course
+   - Reviews //done
+     - Section Header
+     - Review
+     - Review
+     - Review
+   - Join Us //done
+ - Footer
+   

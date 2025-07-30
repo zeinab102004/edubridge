@@ -1,0 +1,134 @@
+#course{
+background-color: #fff;
+margin-top: 20px;
+text-align: center;
+
+}
+.course-header{
+    text-align: start;
+    padding: 5rem 0;
+    color: #fff;
+
+}
+
+#course span{
+    color: var(--sky-blue);
+    font-weight: 600;
+
+}
+#course h2{
+    font-size: 40px;
+    font-weight: 600;
+    margin: 20px 0;
+    color: black;
+}
+#course p{
+    margin-bottom: 30px;
+    color: var(--Light-gray);
+    line-height: 1.6;
+}
+
+.cards{
+display: flex;
+}
+.card-course{
+    margin: 10px;
+}
+.cards .card-course .card-img{
+    position: relative;
+}
+.cards .card-course .card-img img{
+    width: 100%;
+    margin-bottom: 5px;
+
+}
+.cards .card-course .card-img span{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: var(--red);
+    padding: 5px 8px;
+    color: #fff !important;
+    font-weight: 500;
+    font-size: 12px;
+
+    border-radius: 5px;
+}
+.card-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-title .star{
+    background-color: var(--dark-blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    font-size: 15px;
+    color: #fff !important;
+width: 60px;    
+    margin-bottom: 10px;
+}
+.card-title .star .icon{
+    color: var(--yellow);
+    font-size: 18px;
+
+}
+.card-content h4,p{
+    text-align: start;
+    margin-bottom: 17px;
+}
+.card-content .sal{
+    text-align: start;
+    display: block;
+    color: var(--Light-gray) !important;
+    margin-bottom: 17px;
+}
+.card-content .card-price{
+    display: block;
+    text-align: start;
+}
+.card-content .card-price span{
+    color: var(--Light-gray) !important;
+    margin-right: 10px;
+}
+.card-content .card-price .col{
+    color: var(--green) !important;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-course {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .course-header {
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+
+  #course h2 {
+    font-size: 28px;
+  }
+
+  #course p {
+    font-size: 14px;
+  }
+
+  .card-content h4, .card-content p {
+    font-size: 14px;
+  }
+}
